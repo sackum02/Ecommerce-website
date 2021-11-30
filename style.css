@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Baloo+Tammudu+2&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav{ 
+    margin-left: 2%;
+}
+.Nav-bar{
+    height:100px;
+}
+nav ul li, .menu1, .menu2, .menu3, .menu4{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.Nav{
+    margin-top: 14px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+}
+
+
+.gender:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.logo{
+    margin-left: 25%;
+    font-size: 35px;
+    width: 15%;
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+ 
+}
+.icon1{
+    margin-left: 66%;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.icon2 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 69%;
+}
+.icon3{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 72%;
+}
+
+.material-icons-outlined:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.menu{
+    margin-left: 1.7%;
+  
+}
+
+
+.menu1, .menu2, .menu3, .menu4{
+    margin-left: 15px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+
+
+.main-menu:hover{
+color: black;
+font-weight: bold;
+}
+.submenu-1{
+   
+    position: absolute;
+    display: none;
+}
+
+.submenu-1 ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.submenu-1 ul li a{
+    font-size: 13px;
+}
+
+.submenu-1 ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:hover  .submenu-1{
+    display: block;
+    position: absolute;  
+    margin-left: -40px;
+    
+}
+.submenu-1 ul li{
+    text-align: left;
+    line-height: 30px;
+}
+
+.menu ul li:hover  .submenu-1 ul li .category {
+    margin-top: 50px;
+}
+
+.category{
+   margin-top: 30px;
+}
+span{
+    font-size: 15px;
+}
+
+.search-bar{
+    margin-left: 68%;
+    position: absolute;
+    width: 17%;
+    background-color: aliceblue;
+}
+.search-bar input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(190, 186, 186);
+  width: 100%;
+}
+
+.banner{
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+#Footer{
+    width: 100%;
+    padding-right: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
